@@ -56,7 +56,7 @@ export default function Hero() {
             {/* label */}
             <div className="flex items-center gap-2 mb-5">
               <span className="w-7 h-px bg-cyan-400" />
-              <span className="font-mono text-xs text-cyan-400 tracking-[2px] uppercase">Available for Internships & Roles</span>
+              <span className="font-mono text-xs text-cyan-400 tracking-[2px] uppercase">Available for Internships & Full time roles</span>
             </div>
 
             {/* name */}
@@ -77,9 +77,9 @@ export default function Hero() {
               Engineering undergraduate at{' '}
               <strong className="text-t1">NIT Delhi</strong>{' '}
               building intelligent systems at the intersection of{' '}
-              <strong className="text-accent-2">machine learning</strong>,{' '}
-              <strong className="text-cyan-400">data engineering</strong>, and{' '}
-              <strong className="text-violet-400">full-stack development</strong>.
+              <strong className="text-accent-2">Machine Learning</strong>,{' '}
+              <strong className="text-cyan-400">Data Engineering</strong>, and{' '}
+              <strong className="text-violet-400">Full-Stack Development</strong>.
             </p>
 
             {/* buttons */}
@@ -128,7 +128,7 @@ export default function Hero() {
             </div>
             <div className="absolute top-12 -right-4 lg:-right-8 animate-[float_3s_ease-in-out_infinite_1.5s] glass rounded-xl px-3 py-2 flex items-center gap-2 text-xs font-medium whitespace-nowrap">
               <span className="w-2 h-2 rounded-full bg-amber-400 shadow-[0_0_8px_#fbbf24]" />
-              NIT Delhi · 7.4 CGPA
+              NIT Delhi · 7.6 CGPA
             </div>
           </motion.div>
         </div>
