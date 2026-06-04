@@ -5,47 +5,42 @@
 
 export const meta = {
   name: "Saurav Singh",
-  title: "Data Scientist & ML Engineer",
+  title: "Data Scientist",
   tagline: "NIT Delhi Undergrad · Building Intelligent Systems",
   email: "sauravsingh1216@gmail.com",
   phone: "+91 73800 27961",
   location: "Delhi, India",
   github: "https://github.com/srv-0",
-  linkedin: "https://linkedin.com/in/sauravsingh",   // ← update
-  resumeUrl: "",                                       // ← paste Google Drive link
+  linkedin: "https://www.linkedin.com/in/saurav-singh-srv16/",   // ← update
+  resumeUrl: "https://drive.google.com/file/d/1_Yy-7J8hERItCKPn9suktramS3R8AmsI/view?usp=drive_link",                                       // ← paste Google Drive link
   formspreeId: "",                                     // ← paste Formspree ID
 };
 
 export const typingPhrases = [
   "Data Scientist",
-  "ML Engineer",
+  "Data Analyst",
   "Data Engineer",
-  "AI Developer",
-  "Analytics Engineer",
+  "Full Stack Developer",
 ];
 
 export const stats = [
   { label: "Projects Built",     value: 6,  suffix: "+" },
-  { label: "Internship Months",  value: 3,  suffix: ""  },
+  { label: "Internship",  value: 2,  suffix: ""  },
   { label: "Technical Skills",   value: 25, suffix: "+" },
-  { label: "ML Accuracy %",      value: 98, suffix: "%"  },
 ];
 
 export const about = {
   paragraphs: [
-    `I'm <strong>Saurav Singh</strong>, a pre-final year undergraduate at <strong>National Institute of Technology, Delhi</strong>. My engineering foundation gives me a systems-level lens — I think in pipelines, constraints, and optimization.`,
+    `I'm <strong>Saurav Singh</strong>, a final year undergraduate at <strong>National Institute of Technology Delhi</strong>. My engineering foundation gives me a systems level lens — I think in pipelines, constraints, and optimization.`,
     `That mindset translates directly into <strong>machine learning and data engineering</strong>: building LSTM models with 98.48% accuracy, designing ETL pipelines, and architecting full-stack ML products that go from raw data to live deployment.`,
     `From <strong>LangChain RAG systems</strong> to Power BI dashboards to MERN applications — I build end-to-end. Every layer of the stack is a tool, and I use whichever ones best solve the problem.`,
   ],
   highlights: [
-    { icon: "🎓", title: "B.Tech @ NIT Delhi", sub: "Mechanical Engineering · 2023–2027 · 7.4 CGPA" },
+    { icon: "🎓", title: "Bachelors of Technology @ NIT Delhi", sub: "2023–2027 · 7.6 CGPA" },
     { icon: "📍", title: "Delhi, India",        sub: "Open to remote & relocation"                  },
-    { icon: "💡", title: "Actively Seeking",    sub: "Data Science · ML Engineering · Data Eng"     },
+    { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Eng"     },
   ],
   cards: [
-    { icon: "🔬", title: "Systems Thinker",    body: "Engineering training means I decompose problems — model evaluation, pipeline bottlenecks, data quality issues — the same way I'd approach a mechanical design failure." },
-    { icon: "⚙️", title: "End-to-End Builder", body: "LSTM networks to React frontends to Node.js APIs. I architect complete systems: data ingestion → model → API → UI, without needing a separate team for each layer." },
-    { icon: "📊", title: "Production-Minded",  body: "Achieving 98.48% ML accuracy matters. So does a 100/100 PageSpeed score. I care about metrics that actually show up in production, not just notebooks." },
     { icon: "🏆", title: "Award Winner",       body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President). Shortlisted for Flipkart GRiD 7.0 Hackathon. Academic Excellence awardee, JNV Chandigarh." },
   ],
 };
@@ -91,19 +86,19 @@ export const skills = [
     category: "Backend & DB",
     color: "accent",
     icon: "🌐",
-    tags: ["Node.js","Express.js","MongoDB","MySQL","PostgreSQL","REST APIs","JWT Auth","MERN"],
+    tags: ["Node.js","Express.js","MongoDB","MySQL","REST APIs","JWT Auth","MERN"],
   },
   {
     category: "Frontend",
     color: "green",
     icon: "⚛️",
-    tags: ["React.js","Next.js","HTML/CSS","Chakra UI","Context API","Firebase","Stripe","Tailwind"],
+    tags: ["React.js","Next.js","HTML/CSS","Tailwind"],
   },
   {
     category: "Tools & DevOps",
     color: "pink",
     icon: "🛠️",
-    tags: ["Git/GitHub","Docker","Jupyter","VS Code","Spring Boot","BeautifulSoup","JUnit/TDD","Vercel"],
+    tags: ["Git/GitHub","Docker","Jupyter","VS Code","JUnit/TDD","Vercel"],
   },
 ];
 
@@ -215,8 +210,8 @@ export const projects = [
 
 export const experience = [
   {
-    role: "Data Analytics & Business Insights Intern",
-    company: "Bansal Engineers Pvt. Ltd",
+    role: "Internship",
+    company: "Bansal Engineers",
     period: "May 2025 – Jul 2025",
     color: "accent",
     achievements: [
@@ -240,32 +235,20 @@ export const experience = [
     ],
     skills: ["SQL","Excel","Data Management","Reporting"],
   },
-  {
-    role: "Assistant Engineer (Intern)",
-    company: "Bansal Engineers",
-    period: "May 2025 – Jun 2025",
-    color: "violet",
-    achievements: [
-      "Collaborated with dev and content teams to translate designs into functional websites",
-      "Delivered client-specific engineering solutions via cross-functional coordination",
-      "Coordinated with clients and senior engineers to align product outcomes",
-    ],
-    skills: ["Web Development","Client Communication","Cross-functional Teams"],
-  },
 ];
 
 export const education = [
   {
-    degree: "B.Tech — Mechanical Engineering",
-    institution: "National Institute of Technology, Delhi",
+    degree: "Bachelors of Technology",
+    institution: "National Institute of Technology Delhi",
     period: "2023 – 2027",
-    score: "7.4 CGPA",
+    score: "7.6 CGPA",
     icon: "🏛️",
     main: true,
     courses: ["Statistics","DSA","DBMS","Machine Learning","Data Analytics","Mathematics","Operations Research","Probability"],
   },
   {
-    degree: "12th Grade — Science",
+    degree: "12th Science",
     institution: "Jawahar Navodaya Vidyalaya, Chandigarh",
     period: "2022",
     score: "90%",
@@ -286,12 +269,11 @@ export const achievements = [
   { icon: "🎖️", title: "Academic Excellence Award",   desc: "Honored by the Principal of JNV Chandigarh for outstanding performance across science and mathematics.", year: "2023" },
   { icon: "🌱", title: "Automated Vegetable Transplanter", desc: "Designed an automated transplanting robot combining mechanical engineering, embedded systems, and precision automation.", year: "2025" },
   { icon: "🕷️", title: "Spider Agri Robot",           desc: "Multi-legged autonomous machine designed for field operations — robotics meets smart farming applications.", year: "2025" },
-  { icon: "👥", title: "T&P Cell Leadership",         desc: "Database Coordinator managing 1,200+ student records and 25+ placement drives at NIT Delhi.", year: "2024–Now" },
+  { icon: "👥", title: "T&P Cell Coordinator",         desc: "Database Coordinator managing 1,200+ student records and 25+ placement drives at NIT Delhi.", year: "2024–Now" },
 ];
 
 export const certifications = [
   { org: "Tata Group · Forage", orgColor: "cyan",   name: "Data Analytics & Business Insights Simulation", date: "Jun–Dec 2025", desc: "EDA on 10K+ records, Power BI DAX dashboards, credit risk BRD." },
-  { org: "Bansal Engineers",    orgColor: "accent",  name: "Data Analytics Internship Certificate",          date: "May–Jul 2025",  desc: "Business data analysis, EDA, Power BI reporting." },
   { org: "Bansal Engineers",    orgColor: "amber",   name: "Assistant Engineer Internship",                  date: "May–Jun 2025",  desc: "Web development and cross-functional collaboration." },
   { org: "SAEINDIA",            orgColor: "green",   name: "TIFAN National Engineering Finalist",            date: "2025",          desc: "National-level engineering competition, recognized by SAE India." },
   { org: "Flipkart",            orgColor: "violet",  name: "GRiD 7.0 Coding Round Certificate",             date: "2025",          desc: "Shortlisted for Flipkart's flagship engineering hackathon." },
