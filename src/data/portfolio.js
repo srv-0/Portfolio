@@ -55,7 +55,6 @@ export const skills = [
       { name: "SQL",              pct: 85 },
       { name: "JavaScript",       pct: 80 },
       { name: "Java (DSA+OOPs)",  pct: 75 },
-      { name: "C",                pct: 65 },
     ],
   },
   {
@@ -277,5 +276,5 @@ export const certifications = [
   { org: "Bansal Engineers",    orgColor: "amber",   name: "Assistant Engineer Internship",                  date: "May–Jun 2025",  desc: "Web development and cross-functional collaboration." },
   { org: "SAEINDIA",            orgColor: "green",   name: "TIFAN National Engineering Finalist",            date: "2025",          desc: "National-level engineering competition, recognized by SAE India." },
   { org: "Flipkart",            orgColor: "violet",  name: "GRiD 7.0 Coding Round Certificate",             date: "2025",          desc: "Shortlisted for Flipkart's flagship engineering hackathon." },
-  { org: "NIT Delhi",           orgColor: "pink",    name: "Academic Excellence Award",                      date: "2023",          desc: "Honored by Principal of JNV Chandigarh." },
+  { org: "JNV Chandigarh",           orgColor: "pink",    name: "Academic Excellence Award",                      date: "2023",          desc: "Honored by Principal of JNV Chandigarh." },
 ];
