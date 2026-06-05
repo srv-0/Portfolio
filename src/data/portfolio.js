@@ -31,9 +31,9 @@ export const stats = [
 
 export const about = {
   paragraphs: [
-    `I'm <strong>Saurav Singh</strong>, a final year undergraduate at <strong>National Institute of Technology Delhi</strong>. My engineering foundation gives me a systems level lens — I think in pipelines, constraints, and optimization.`,
-    `That mindset translates directly into <strong>machine learning and data engineering</strong>: building LSTM models with 98.48% accuracy, designing ETL pipelines, and architecting full-stack ML products that go from raw data to live deployment.`,
-    `From <strong>LangChain RAG systems</strong> to Power BI dashboards to MERN applications — I build end-to-end. Every layer of the stack is a tool, and I use whichever ones best solve the problem.`,
+    `I'm <strong>Saurav Singh</strong>, a final year undergraduate at <strong>National Institute of Technology Delhi</strong>. My engineering foundation gives me a systems level lens and I think in pipelines, constraints, and optimization.`,
+    `That mindset translates directly into <strong>machine learning and data engineering</strong>: building LSTM models with accuracy, designing ETL pipelines, and architecting full stack ML products that go from raw data to live deployment.`,
+    `From <strong>RAG systems</strong> to Power BI dashboards to MERN applications, I build end-to-end. Every layer of the stack is a tool, and I use whichever ones best solve the problem.`,
   ],
   highlights: [
     { icon: "🎓", title: "Bachelors of Technology @ NIT Delhi", sub: "2023–2027 · 7.6 CGPA" },
@@ -41,7 +41,7 @@ export const about = {
     { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Eng"     },
   ],
   cards: [
-    { icon: "🏆", title: "Award Winner",       body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President). Shortlisted for Flipkart GRiD 7.0 Hackathon. Academic Excellence awardee, JNV Chandigarh." },
+    { icon: "🏆", title: "Award Winner",       body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President).</br> Shortlisted for Flipkart GRiD 7.0 Hackathon.</br> Academic Excellence awardee, JNV Chandigarh." },
   ],
 };
 
@@ -109,7 +109,7 @@ export const projects = [
     subtitle: "AI-Powered Agricultural Intelligence Platform",
     emoji: "🌾",
     tags: ["ml", "fullstack"],
-    desc: "End-to-end agricultural platform combining ML crop recommendations, real-time news aggregation, and government scheme extraction — serving farmers with data-driven insights.",
+    desc: "End-to-end agricultural platform combining ML crop recommendations, real-time news aggregation, and government scheme extraction, serving farmers with data-driven insights.",
     outcomes: [
       "LSTM-based ANN achieving 98.48% crop recommendation accuracy",
       "Python scraper (BeautifulSoup) extracting govt scheme data into MongoDB",
@@ -178,30 +178,13 @@ export const projects = [
     subtitle: "Bank Account Management System",
     emoji: "🏦",
     tags: ["backend"],
-    desc: "Java banking system built TDD-first with JUnit — OOPs principles, atomic transfers, overdraft protection.",
+    desc: "Java banking system built TDD-first with JUnit, OOPs principles, atomic transfers, overdraft protection.",
     outcomes: [
       "OOPs: Encapsulation, Abstraction, State Management",
       "Test-Driven Development with JUnit + audit logging",
       "Overdraft protection and atomic transfers",
     ],
     tech: ["Java","OOPs","JUnit","TDD","SDLC"],
-    github: "",
-    live: "",
-  },
-  {
-    id: "tnp",
-    featured: false,
-    title: "T&P Cell Database",
-    subtitle: "NIT Delhi Placement Analytics",
-    emoji: "🎓",
-    tags: ["data", "fullstack"],
-    desc: "Centralized database for 1,200+ students at NIT Delhi T&P Cell — eligibility tracking, cleaning, drive-wise reports.",
-    outcomes: [
-      "Reduced data inconsistencies by 30–40%",
-      "Drive-wise reports for 25+ recruitment drives",
-      "Coordinated with 10+ team members",
-    ],
-    tech: ["SQL","Excel","Data Cleaning","Reporting"],
     github: "",
     live: "",
   },
