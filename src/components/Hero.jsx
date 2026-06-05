@@ -56,7 +56,6 @@ export default function Hero() {
             {/* label */}
             <div className="flex items-center gap-2 mb-5">
               <span className="w-7 h-px bg-cyan-400" />
-              <span className="font-mono text-xs text-cyan-400 tracking-[2px] uppercase">Available for Internships & Full time roles</span>
             </div>
 
             {/* name */}
