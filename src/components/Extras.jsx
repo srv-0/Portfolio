@@ -18,7 +18,6 @@ export function Education() {
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
         <motion.div ref={ref} initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-          <div className="section-tag mb-4">⟨ Education /⟩</div>
           <h2 className="text-[clamp(28px,4vw,42px)] font-extrabold tracking-tight mb-3">
             Academic <span className="gradient-text">Foundation</span>
           </h2>
@@ -64,7 +63,6 @@ export function Achievements() {
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
         <motion.div ref={ref} initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-          <div className="section-tag mb-4">⟨ Achievements /⟩</div>
           <h2 className="text-[clamp(28px,4vw,42px)] font-extrabold tracking-tight mb-3">
             Awards & <span className="gradient-text">Recognition</span>
           </h2>
@@ -94,7 +92,6 @@ export function Certifications() {
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
         <motion.div ref={ref} initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-          <div className="section-tag mb-4">⟨ Certifications /⟩</div>
           <h2 className="text-[clamp(28px,4vw,42px)] font-extrabold tracking-tight mb-3">
             Verified <span className="gradient-text">Credentials</span>
           </h2>
