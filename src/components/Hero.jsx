@@ -55,7 +55,6 @@ export default function Hero() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
             {/* label */}
             <div className="flex items-center gap-2 mb-5">
-              <span className="w-7 h-px bg-cyan-400" />
             </div>
 
             {/* name */}
