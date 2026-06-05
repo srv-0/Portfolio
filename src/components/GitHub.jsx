@@ -42,7 +42,6 @@ export default function GitHub() {
       <div className="max-w-6xl mx-auto px-6 lg:px-10">
         <motion.div ref={ref} initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>
-          <div className="section-tag mb-4">⟨ GitHub /⟩</div>
           <h2 className="text-[clamp(28px,4vw,42px)] font-extrabold tracking-tight mb-3">
             Code <span className="gradient-text">Activity</span>
           </h2>
