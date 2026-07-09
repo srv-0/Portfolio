@@ -72,11 +72,8 @@ export default function Hero() {
 
             {/* desc */}
             <p className="text-t2 text-base leading-[1.8] max-w-lg mb-9">
-              Engineering undergraduate at{' '}
-              <strong className="text-t1">NIT Delhi</strong>{' '}
-              building intelligent systems at the intersection of{' '}
-              <strong className="text-accent-2">Machine Learning</strong> and {' '}
-              <strong className="text-cyan-400">Data Engineering</strong>{' '}
+              <strong className="text-accent-2">Number</strong> speaks, I can  {' '}
+              <strong className="text-cyan-400">listen</strong>{' '}
             </p>
 
             {/* buttons */}
