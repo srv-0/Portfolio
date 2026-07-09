@@ -24,16 +24,21 @@ export default function Experience() {
         </motion.div>
 
         <div className="relative pl-6 border-l"
-          style={{ borderImage: 'linear-gradient(to bottom,#6366f1,#22d3ee,transparent) 1' }}>
+          <div
+    className="absolute left-0 top-2 bottom-2 w-[2px]"
+    style={{
+      background: "linear-gradient(to bottom,#6366f1,#22d3ee,transparent)"
+    }}
+  />
           {experience.map((exp, i) => {
             const c = colorMap[exp.color] || colorMap.accent
             return (
               <motion.div key={i} initial={{ opacity: 0, x: -30 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.5, delay: i * 0.15 }}
-                className="relative mb-12 pl-8">
+                className={`relative pl-8 ${i !== experience.length - 1 ? "pb-12" : ""}`}
                 {/* dot */}
-                <div className="absolute -left-[22px] top-2 w-3 h-3 rounded-full"
+                <div className="absolute -left-[7px] top-2 w-3 h-3 rounded-full"
                   style={{ background: c.dot, boxShadow: `0 0 0 3px #05060f, 0 0 0 5px ${c.shadow}` }} />
 
                 <div className="bg-surface border border-white/[0.07] rounded-2xl p-7 glow-hover hover:border-accent/20">
