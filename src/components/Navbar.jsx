@@ -49,7 +49,7 @@ export default function Navbar() {
         scrolled ? 'bg-[#05060f]/90 backdrop-blur-xl border-b border-white/[0.06]' : ''
       }`}>
         <a href="#hero" className="text-lg font-bold tracking-tight accent-gradient">
-          Saurav Singh
+          Portfolio
         </a>
 
         {/* desktop links */}
