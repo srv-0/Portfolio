@@ -7,7 +7,8 @@ const filters = [
   { label: 'All',            value: 'all'       },
   { label: 'ML / AI',        value: 'ml'        },,
   { label: 'Data Analytics', value: 'data'      },
-  { label: 'Database Management',        value: 'backend'   },
+  { label: 'Buisness Analytics', value: 'BI'   },
+  { label: 'Database Management', value: 'DBMS'   },
 ]
 
 function ProjectCard({ p, featured, index, inView }) {
