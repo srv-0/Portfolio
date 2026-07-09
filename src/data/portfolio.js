@@ -104,7 +104,7 @@ export const projects = [
     title: "Predictive maintenance model for Industrial machines",
     subtitle: "Machine Learning & Deep Learning",
     emoji: "",
-    tags: ["ml", "dl", "python"],
+    tags: ["ml", "dl", "python","Machine Learning"],
     desc: "Building a predictive maintenance pipeline of machine failure alerts before occurrence, to save maintenance cost",
     outcomes: [
       "Improved reliability on imbalanced data by applying SMOTE resampling to prevent misleading accuracy metrics.",
@@ -121,7 +121,7 @@ export const projects = [
     title: "Retail Customer Intelligence Dashboard",
     subtitle: "Real time customer churn predtiction dashboard",
     emoji: "",
-    tags: ["Business intelligence"],
+    tags: ["Business intelligence","data","Buisness Analytics"],
     desc: "Deployed a Flask web application with live customer search and churn risk filter connected to SQLite backend.",
     outcomes: [
       "Queried a relational SQL database of 10,000+ retail transactions & performed RFM customer segmentation using Python, identifying 4 distinct customer tiers; high value segment (top 18%) contributed 62% of total revenue",
@@ -137,7 +137,7 @@ export const projects = [
     title: "Delinquency Risk Analysis",
     subtitle: "Tata Group Data Analytics Simulation",
     emoji: "📈",
-    tags: ["data"],
+    tags: ["data","Data Analytics"],
     desc: "EDA and credit risk modeling on 10,000+ customer records. DAX-powered Power BI dashboard with delinquency rates and risk matrices",
     outcomes: [
       "EDA on 10,000+ records — GenAI-assisted, cut effort by 30%",
@@ -148,12 +148,12 @@ export const projects = [
     github: "https://github.com/srv-0/Customer_Behavior_Analysis",
   },
   {
-    id: "DBMS",
+    id: "Database Management",
     featured: false,
     title: "Intelligent Library System",
     subtitle: "Document & Books Borrowing System",
     emoji: "📚",
-    tags: ["Database Management"],
+    tags: ["Database Management","DBMS","data","Database Management"],
     desc: "Backend-first library system with indexed search, metadata automation, and schema-enforced data governance.",
     outcomes: [
       "Indexed search by title, author, category",
@@ -169,7 +169,7 @@ export const projects = [
     title: "Data Analytics Platform",
     subtitle: "DataLens — ML-Powered Data Analytics Platform",
     emoji: "🏦",
-    tags: ["Data Engineering"],
+    tags: ["Data Engineering","ml","excel"],
     desc: "Upload any CSV & get instant charts, statistics, auto-generated insights, and ML predictions (regression, classification, clustering) — all in a polished dark-themed web app.",
     outcomes: [
       "Built a Data Analytics app where users upload CSV datasets and get instant statistical, correlation, chart analysis",
