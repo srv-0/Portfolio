@@ -5,7 +5,7 @@
 
 export const meta = {
   name: "Saurav Singh",
-  title: "Data Scientist",
+  title: "Data Engineer",
   tagline: "NIT Delhi Undergrad · Building Intelligent Systems",
   email: "sauravsingh1216@gmail.com",
   phone: "+91 73800 27961",
@@ -40,7 +40,7 @@ export const about = {
     { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Eng"     },
   ],
   cards: [
-    { icon: "🏆", title: "Award Winner",       body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President). Shortlisted for Flipkart GRiD 7.0 Hackathon.                      Academic Excellence awardee, JNV Chandigarh." },
+    { icon: "🏆", title: "Award Winner",  body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President)"," Shortlisted for Flipkart GRiD 7.0 Hackathon","Academic Excellence awardee, JNV Chandigarh" },
   ],
 };
 
