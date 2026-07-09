@@ -31,13 +31,13 @@ export const stats = [
 export const about = {
   paragraphs: [
     `I'm <strong>Saurav Singh</strong>, a final year undergraduate at <strong>National Institute of Technology Delhi</strong>. My engineering foundation gives me a systems level lens and I think in pipelines, constraints, and optimization.`,
-    `That mindset translates directly into <strong>machine learning and data engineering</strong>: building LSTM models with accuracy, designing ETL pipelines, and architecting full stack ML products that go from raw data to live deployment.`,
-    `From <strong>RAG systems</strong> to Power BI dashboards to MERN applications, I build end-to-end. Every layer of the stack is a tool, and I use whichever ones best solve the problem.`,
+    `That mindset translates directly into <strong>machine learning and data engineering</strong>: building machine/deep learning models with accuracy, designing pipelines, and architecting full stack ML products that go from raw data to live deployment.`,
+    `From <strong>Raw data </strong> to Business insights, dashboard creation, I build end-to-end.`,
   ],
   highlights: [
     { icon: "🎓", title: "Bachelors of Technology @ NIT Delhi", sub: "2023–2027 · 7.6 CGPA" },
     { icon: "📍", title: "Delhi, India",        sub: "Open to remote & relocation"                  },
-    { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Eng"     },
+    { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Engineer"     },
   ],
   cards: [
     { icon: "🏆", title: "Award Winner",  body: ["Finalist at TIFAN SAEINDIA (recognized by SAE India President)",
@@ -103,8 +103,8 @@ export const projects = [
   {
     id: "Machine Learning",
     featured: true,
-    title: "Machine Learning & Deep Learning",
-    subtitle: "Predictive maintenance model for Industrial machines",
+    title: "Predictive maintenance model for Industrial machines",
+    subtitle: "Machine Learning & Deep Learning",
     emoji: "",
     tags: ["ml", "dl", "python"],
     desc: "Building a predictive maintenance pipeline of machine failure alerts before occurrence, to save maintenance cost",
