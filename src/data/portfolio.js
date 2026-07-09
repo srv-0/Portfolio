@@ -126,7 +126,7 @@ export const projects = [
     tags: ["Business intelligence"],
     desc: "Deployed a Flask web application with live customer search and churn risk filter connected to SQLite backend.",
     outcomes: [
-      "Queried a relational SQL database of 10,000+ retail transactions & performed RFM customer segmentation using Python, identifying 4 distinct customer tiers; high value segment (top 18%) contributed 62% of total revenue"
+      "Queried a relational SQL database of 10,000+ retail transactions & performed RFM customer segmentation using Python, identifying 4 distinct customer tiers; high value segment (top 18%) contributed 62% of total revenue",
       "Built a churn risk prediction model using scikit-learn (Random Forest) achieving 84% accuracy, flagged top 15% at risk customers whose retention could recover an estimated ₹3.2L in projected monthly revenue",
     ],
     tech: ["Excel", "Python", "SQL", "Power BI", "Flask"],
