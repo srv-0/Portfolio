@@ -53,7 +53,7 @@ export default function Navbar() {
         </a>
 
         {/* desktop links */}
-        <ul className="hidden lg:flex items-center gap-7 list-none">
+        {/* <ul className="hidden lg:flex items-center gap-7 list-none">
           {links.map(l => (
             <li key={l.href}>
               <a href={l.href}
@@ -68,7 +68,7 @@ export default function Navbar() {
         <a href="#" onClick={handleResume}
           className="hidden lg:inline-flex btn-primary text-sm py-2 px-5">
           Resume ↓
-        </a>
+        </a> */}
 
         {/* hamburger */}
         <button className="lg:hidden flex flex-col gap-1.5 cursor-pointer"
