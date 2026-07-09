@@ -75,8 +75,8 @@ export default function Hero() {
               Engineering undergraduate at{' '}
               <strong className="text-t1">NIT Delhi</strong>{' '}
               building intelligent systems at the intersection of{' '}
-              <strong className="text-accent-2">Machine Learning</strong>,{' '}
-              <strong className="text-cyan-400">Data Engineering</strong>, and{' '}
+              <strong className="text-accent-2">Machine Learning</strong> and {' '}
+              <strong className="text-cyan-400">Data Engineering</strong>{' '}
             </p>
 
             {/* buttons */}
