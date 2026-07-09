@@ -69,7 +69,7 @@ export default function GitHub() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.3 }}
           className="bg-surface border border-white/[0.07] rounded-2xl p-7 mb-4">
-          <h3 className="text-[13px] font-semibold text-t2 font-mono mb-5">// language breakdown</h3>
+          <h3 className="text-[13px] font-semibold text-t2 font-mono mb-5">Language breakdown</h3>
           <div className="flex h-2 rounded-full overflow-hidden mb-4">
             {langs.map(l => (
               <div key={l.name} title={`${l.name} ${l.pct}%`}
@@ -91,7 +91,7 @@ export default function GitHub() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.4 }}
           className="bg-surface border border-white/[0.07] rounded-2xl p-7">
-          <h3 className="text-[13px] font-semibold text-t2 font-mono mb-5">// contribution graph — past year</h3>
+          <h3 className="text-[13px] font-semibold text-t2 font-mono mb-5">Contribution graph — past year</h3>
           <ContribGrid />
           <div className="flex items-center justify-end gap-1.5 mt-3">
             <span className="text-[11px] text-t3 font-mono">Less</span>
