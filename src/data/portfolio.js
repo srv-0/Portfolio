@@ -40,7 +40,9 @@ export const about = {
     { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Eng"     },
   ],
   cards: [
-    { icon: "🏆", title: "Award Winner",  body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President)"," Shortlisted for Flipkart GRiD 7.0 Hackathon","Academic Excellence awardee, JNV Chandigarh" },
+    { icon: "🏆", title: "Award Winner",  body: ["Finalist at TIFAN SAEINDIA (recognized by SAE India President)",
+												" Shortlisted for Flipkart GRiD 7.0 Hackathon",
+												"Academic Excellence awardee, JNV Chandigarh"] },
   ],
 };
 
@@ -54,7 +56,7 @@ export const skills = [
       { name: "SQL",              pct: 95 },
       { name: "JavaScript",       pct: 80 },
       { name: "Java (DSA+OOPs)",  pct: 85 },
-      { name: "HTML/CSS" ,        pct: 90"},
+      { name: "HTML/CSS",         pct: 90"},
     ],
   },
   {
