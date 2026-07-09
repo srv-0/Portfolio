@@ -5,10 +5,9 @@ import { projects } from '../data/portfolio'
 
 const filters = [
   { label: 'All',            value: 'all'       },
-  { label: 'ML / AI',        value: 'ml'        },
-  { label: 'Full Stack',     value: 'fullstack' },
+  { label: 'ML / AI',        value: 'ml'        },,
   { label: 'Data Analytics', value: 'data'      },
-  { label: 'Backend',        value: 'backend'   },
+  { label: 'Database Management',        value: 'backend'   },
 ]
 
 function ProjectCard({ p, featured, index, inView }) {
@@ -29,7 +28,7 @@ function ProjectCard({ p, featured, index, inView }) {
         <div>
           {featured && (
             <span className="font-mono text-[10px] px-2 py-0.5 rounded-full bg-amber-400/10 border border-amber-400/30 text-amber-400 tracking-wider mr-2">
-              ⭐ FEATURED
+              FEATURED
             </span>
           )}
           <h3 className="text-lg font-bold mt-2">{p.title}</h3>
