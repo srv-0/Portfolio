@@ -121,7 +121,7 @@ export const projects = [
     title: "Retail Customer Intelligence Dashboard",
     subtitle: "Real time customer churn predtiction dashboard",
     emoji: "",
-    tags: ["Business intelligence","data","Buisness Analytics"],
+    tags: ["Business intelligence","data","Buisness Analytics","BI"],
     desc: "Deployed a Flask web application with live customer search and churn risk filter connected to SQLite backend.",
     outcomes: [
       "Queried a relational SQL database of 10,000+ retail transactions & performed RFM customer segmentation using Python, identifying 4 distinct customer tiers; high value segment (top 18%) contributed 62% of total revenue",
