@@ -83,7 +83,7 @@ export default function Hero() {
             <div className="flex flex-wrap gap-3 mb-10">
               <a href="#projects" className="btn-primary">View Projects</a>
               <a href="#" onClick={handleResume} className="btn-secondary">Resume</a>
-              <a href="#contact" className="btn-outline">Contact</a>
+              {/* <a href="#contact" className="btn-outline">Contact</a> */}
             </div>
 
             {/* stats */}
