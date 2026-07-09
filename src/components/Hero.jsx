@@ -77,14 +77,13 @@ export default function Hero() {
               building intelligent systems at the intersection of{' '}
               <strong className="text-accent-2">Machine Learning</strong>,{' '}
               <strong className="text-cyan-400">Data Engineering</strong>, and{' '}
-              <strong className="text-violet-400">Full-Stack Development</strong>.
             </p>
 
             {/* buttons */}
             <div className="flex flex-wrap gap-3 mb-10">
-              <a href="#projects" className="btn-primary">View Projects →</a>
-              <a href="#" onClick={handleResume} className="btn-secondary">↓ Resume</a>
-              <a href="#contact" className="btn-outline">Contact Me</a>
+              <a href="#projects" className="btn-primary">View Projects</a>
+              <a href="#" onClick={handleResume} className="btn-secondary">Resume</a>
+              <a href="#contact" className="btn-outline">Contact</a>
             </div>
 
             {/* stats */}
@@ -114,7 +113,7 @@ export default function Hero() {
                 style={{ background: '#0f1120' }}>
                 <span className="text-[72px] font-extrabold"
                   style={{ background: 'linear-gradient(135deg,#6366f1,#22d3ee)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                  SRV
+                  Analyst
                 </span>
               </div>
             </div>
@@ -126,7 +125,7 @@ export default function Hero() {
             </div>
             <div className="absolute top-12 -right-4 lg:-right-8 animate-[float_3s_ease-in-out_infinite_1.5s] glass rounded-xl px-3 py-2 flex items-center gap-2 text-xs font-medium whitespace-nowrap">
               <span className="w-2 h-2 rounded-full bg-amber-400 shadow-[0_0_8px_#fbbf24]" />
-              NIT Delhi · 7.6 CGPA
+              NIT Delhi
             </div>
           </motion.div>
         </div>
