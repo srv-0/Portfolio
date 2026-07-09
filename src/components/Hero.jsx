@@ -72,8 +72,9 @@ export default function Hero() {
 
             {/* desc */}
             <p className="text-t2 text-base leading-[1.8] max-w-lg mb-9">
-              <strong className="text-accent-2">Number</strong> speaks, I can  {' '}
-              <strong className="text-cyan-400">listen</strong>{' '}
+              Number
+              <strong className="text-accent-2">speaks</strong>, I can  {' '}
+              <strong className="text-cyan-400">listen.</strong>{' '}
             </p>
 
             {/* buttons */}
