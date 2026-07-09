@@ -88,9 +88,9 @@ export default function Contact() {
             <form onSubmit={handleSubmit}
               className="bg-surface border border-white/[0.07] rounded-2xl p-8 flex flex-col gap-4">
               {[
-                { id: 'name',    label: 'Your Name',           type: 'text',  placeholder: 'Recruiter Name'         },
-                { id: 'email',   label: 'Your Email',          type: 'email', placeholder: 'recruiter@company.com'  },
-                { id: 'company', label: 'Company (optional)',  type: 'text',  placeholder: 'Google, Deloitte...'    },
+                { id: 'name',    label: 'Your Name',           type: 'text',  placeholder: ' '         },
+                { id: 'email',   label: 'Your Email',          type: 'email', placeholder: ' '  },
+                { id: 'company', label: 'Company (optional)',  type: 'text',  placeholder: ' '    },
               ].map(f => (
                 <div key={f.id}>
                   <label className="block font-mono text-[11px] text-t3 uppercase tracking-wider mb-2">{f.label}</label>
