@@ -31,7 +31,6 @@ export const stats = [
 export const about = {
   paragraphs: [
     `I'm <strong>Saurav Singh</strong>, a final year undergraduate at <strong>National Institute of Technology Delhi</strong>. My engineering foundation gives me a systems level lens and I think in pipelines, constraints, and optimization.`,
-    `That mindset translates directly into <strong>machine learning and data engineering</strong>: building machine/deep learning models with accuracy, designing pipelines, and architecting full stack ML products that go from raw data to live deployment.`,
     `From <strong>Raw data </strong> to Business insights, dashboard creation, I build end-to-end.`,
   ],
   highlights: [
