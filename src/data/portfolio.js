@@ -30,8 +30,8 @@ export const stats = [
 
 export const about = {
   paragraphs: [
-    `I'm <strong>Saurav Singh</strong>, a final year undergraduate at <strong>National Institute of Technology Delhi</strong>. My engineering foundation gives me a systems level lens and I think in pipelines, constraints, and optimization.`,
-    `From <strong>Raw data </strong> to Business insights, dashboard creation, I build end-to-end.`,
+    `<strong>Saurav Singh</strong>, undergrad. at National Institute of Technology Delhi. My engineering foundation gives me a systems level lens and I think in pipelines, constraints, and optimization.`,
+    `From Raw data to Business insights, dashboard creation, I build end-to-end.`,
   ],
   highlights: [
     { icon: "🎓", title: "Bachelors of Technology @ NIT Delhi", sub: "2023–2027 · 7.6 CGPA" },
@@ -39,9 +39,8 @@ export const about = {
     { icon: "💡", title: "Actively Seeking",    sub: "Data Science · Data Analytics · Data Engineer"     },
   ],
   cards: [
-    { icon: "🏆", title: "Award Winner",  body: ["Finalist at TIFAN SAEINDIA (recognized by SAE India President)",
-												" Shortlisted for Flipkart GRiD 7.0 Hackathon",
-												"Academic Excellence awardee, JNV Chandigarh"] },
+    { icon: "🏆", title: "Award Winner",  body: "Finalist at TIFAN SAEINDIA (recognized by SAE India President)"},
+	{ icon: "🏆", title: "Academic Excellence",  body: "Academic Excellence awardee, JNV Chandigarh" },
   ],
 };
 
