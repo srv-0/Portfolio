@@ -43,6 +43,17 @@ export default function Experience() {
               i !== experience.length - 1 ? "pb-12" : ""
             }`}
           >
+            {/* Connector */}
+            {i !== experience.length - 1 && (
+            <div className="absolute left-0 top-4 bottom-0 -translate-x-1/2 w-[2px] bg-cyan-400" />
+          )}
+            {/* Dot */}
+            <div className="absolute left-0 top-2 -translate-x-1/2 w-3 h-3 rounded-full"
+              style={{
+                background: c.dot,
+                boxShadow: `0 0 0 3px #05060f, 0 0 0 5px ${c.shadow}`,
+              }}
+              />
             {/* Vertical Line */}
             {i !== experience.length - 1 && (
               <div
@@ -54,16 +65,7 @@ export default function Experience() {
                 }}
               />
             )}
-
-            {/* Timeline Dot */}
-            <div
-              className="absolute left-0 top-2 -translate-x-1/2 w-3 h-3 rounded-full"
-              style={{
-                background: c.dot,
-                boxShadow: `0 0 0 3px #05060f, 0 0 0 5px ${c.shadow}`,
-              }}
-            />
-
+            
             {/* Card */}
             <div className="ml-10 bg-surface border border-white/[0.07] rounded-2xl p-7 glow-hover hover:border-accent/20">
               <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
