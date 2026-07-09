@@ -23,7 +23,7 @@ export default function Experience() {
           <p className="text-t2 text-base mb-14">Professional roles and real-world impact</p>
         </motion.div>
 
-        <div className="relative pl-6 border-l"
+        <div className="relative pl-6">
           <div
     className="absolute left-0 top-2 bottom-2 w-[2px]"
     style={{
