@@ -56,7 +56,7 @@ export const skills = [
       { name: "SQL",              pct: 95 },
       { name: "JavaScript",       pct: 80 },
       { name: "Java (DSA+OOPs)",  pct: 85 },
-      { name: "HTML/CSS",         pct: 90"},
+      { name: "HTML/CSS",         pct: 90 },
     ],
   },
   {
