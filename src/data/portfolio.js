@@ -13,7 +13,7 @@ export const meta = {
   github: "https://github.com/srv-0",
   linkedin: "https://www.linkedin.com/in/saurav-singh-srv16/",   // ← update
   resumeUrl: "https://drive.google.com/file/d/1_Yy-7J8hERItCKPn9suktramS3R8AmsI/view?usp=drive_link",                                       // ← paste Google Drive link
-  formspreeId: "",                                     // ← paste Formspree ID
+  formspreeId: "https://formspree.io/f/maqgrvvp",                                     // ← paste Formspree ID
 };
 
 export const typingPhrases = [
@@ -268,14 +268,12 @@ export const achievements = [
   { icon: "🏆", title: "Flipkart GRiD 7.0 Hackathon", desc: "Shortlisted to the Coding Round of India's largest engineering hackathon, competing against thousands nationwide.", year: "2025" },
   { icon: "🚀", title: "Finalist — TIFAN SAEINDIA",   desc: "National finalist recognized by the President of Society of Automotive Engineers India for engineering innovation.", year: "2025" },
   { icon: "🎖️", title: "Academic Excellence Award",   desc: "Honored by the Principal of JNV Chandigarh for outstanding performance across science and mathematics.", year: "2023" },
-  { icon: "🕷️", title: "Spider Agri Robot",           desc: "Multi-legged autonomous machine designed for field operations — robotics meets smart farming applications.", year: "2025" },
+  { icon: "🕷️", title: "Spider Agri Robot",           desc: "Multi-legged autonomous machine designed for field operations where robotics meets smart farming applications.", year: "2025" },
   { icon: "👥", title: "T&P Cell Coordinator",         desc: "Database Coordinator managing 1,200+ student records and 25+ placement drives at NIT Delhi.", year: "2024–Now" },
 ];
 
 export const certifications = [
-  { org: "Tata Group · Forage", orgColor: "cyan",   name: "Data Analytics & Business Insights Simulation", date: "Jun–Dec 2025", desc: "EDA on 10K+ records, Power BI DAX dashboards, credit risk BRD." },
-  { org: "Bansal Engineers",    orgColor: "amber",   name: "Assistant Engineer Internship",                  date: "May–Jun 2025",  desc: "Web development and cross-functional collaboration." },
+  { org: "Tata Group · Forage", orgColor: "cyan",   name: "Data Analytics & Business Insights Simulation", date: "Jun–Dec 2025", desc: "Virtual Internship." },
+  { org: "Bansal Engineers",    orgColor: "amber",   name: "Assistant Engineer",                  date: "May–Jun 2025",  desc: "Internship" },
   { org: "SAEINDIA",            orgColor: "green",   name: "TIFAN National Engineering Finalist",            date: "2025",          desc: "National-level engineering competition, recognized by SAE India." },
-  { org: "Flipkart",            orgColor: "violet",  name: "GRiD 7.0 Coding Round Certificate",             date: "2025",          desc: "Shortlisted for Flipkart's flagship engineering hackathon." },
-  { org: "JNV Chandigarh",           orgColor: "pink",    name: "Academic Excellence Award",                      date: "2023",          desc: "Honored by Principal of JNV Chandigarh." },
 ];
